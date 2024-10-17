@@ -1,0 +1,21 @@
+{
+  "name": "tiny-web-server",
+  "version": "1.0.0",
+  "description": "A tiny web search engine built with JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll",
+    "start": "node cli.js"
+  },
+  "author": "Deepak",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "cheerio": "^1.0.0",
+    "nock": "^13.5.5",
+    "stopword": "^3.1.1"
+  }
+}
